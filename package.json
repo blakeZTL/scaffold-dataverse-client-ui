@@ -1,0 +1,39 @@
+{
+  "name": "scaffold-davaverse-client-ui",
+  "version": "1.0.0",
+  "description": "A scaffolding tool for creating Dataverse client-side web resource projects with TypeScript",
+  "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "template/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dataverse",
+    "dynamics-365",
+    "web-resource",
+    "typescript",
+    "scaffolding",
+    "template"
+  ],
+  "author": "Blake Bradford",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "execa": "^9.6.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.6.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.0.8",
+    "typescript": "^5.8.3"
+  },
+  "bin": {
+    "scaffold-davaverse-client-ui": "./dist/index.js"
+  }
+}
