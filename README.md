@@ -5,13 +5,13 @@ A scaffolding tool for creating Dataverse client-side web resource projects with
 ## Installation
 
 ```bash
-npm install -g scaffold-davaverse-client-ui
+npm install -g scaffold-dataverse-client-ui
 ```
 
 ## Usage
 
 ```bash
-npx scaffold-davaverse-client-ui
+npx scaffold-dataverse-client-ui
 ```
 
 The tool will prompt you for:
@@ -81,7 +81,7 @@ _Note: `<package-manager>` will be replaced with your chosen package manager (np
 1. Create your project:
 
    ```bash
-   npx scaffold-davaverse-client-ui
+   npx scaffold-dataverse-client-ui
    cd your-project-name
    ```
 

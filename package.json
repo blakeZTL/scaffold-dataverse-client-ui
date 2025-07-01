@@ -1,5 +1,5 @@
 {
-  "name": "scaffold-davaverse-client-ui",
+  "name": "scaffold-dataverse-client-ui",
   "version": "1.0.2",
   "description": "A scaffolding tool for creating Dataverse client-side web resource projects with TypeScript, ESLint, Prettier, and Rollup",
   "main": "dist/index.js",
