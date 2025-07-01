@@ -1,10 +1,15 @@
 #!/usr/bin/env node
 
 import inquirer from "inquirer";
-import { join } from "path";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
 import fs from "fs-extra";
 import { execa } from "execa";
 import chalk from "chalk";
+
+// Get __dirname equivalent for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Package manager detection
 type PackageManager = "npm" | "yarn" | "pnpm";
